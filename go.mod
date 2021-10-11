@@ -1,4 +1,4 @@
-module contrib.go.opencensus.io/exporter/prometheus
+module contrib.go.opencensus.io/exporter/prometheus-pushgateway-exporter
 
 require (
 	github.com/cespare/xxhash/v2 v2.1.1 // indirect
