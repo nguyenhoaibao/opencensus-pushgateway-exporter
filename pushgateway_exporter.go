@@ -1,11 +1,12 @@
-package prometheus
+package prometheus // import "contrib.go.opencensus.io/exporter/prometheus-pushgateway-exporter"
 
 import (
-	"github.com/prometheus/client_golang/prometheus/push"
-	"go.opencensus.io/stats/view"
 	"log"
 	"sync/atomic"
 	"time"
+
+	"github.com/prometheus/client_golang/prometheus/push"
+	"go.opencensus.io/stats/view"
 )
 
 // PushGatewayExporter exporter for the Prometheus's push gateway

@@ -14,7 +14,7 @@
 
 // Package prometheus contains a Prometheus exporter that supports exporting
 // OpenCensus views as Prometheus metrics.
-package prometheus // import "contrib.go.opencensus.io/exporter/prometheus"
+package prometheus // import "contrib.go.opencensus.io/exporter/prometheus-pushgateway-exporter"
 
 import (
 	"fmt"
